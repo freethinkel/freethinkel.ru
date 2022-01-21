@@ -3,23 +3,19 @@
 </script>
 
 <div class="page">
-	<div class="container">
-		<h1>Приложения</h1>
-
-		<div class="apps-list">
-			<a href="/">
-				<AppCard name="Gogteat" description="Простой, лаконичный редактор markdown" />
-			</a>
-			<a href="/">
-				<AppCard name="Gogteat" description="Простой, лаконичный редактор markdown" />
-			</a>
-			<a href="/">
-				<AppCard name="Gogteat" description="Простой, лаконичный редактор markdown" />
-			</a>
-			<a href="/">
-				<AppCard name="Gogteat" description="Простой, лаконичный редактор markdown" />
-			</a>
-		</div>
+	<div class="apps-list">
+		<a href="/">
+			<AppCard name="Gogteat" description="Простой, лаконичный редактор markdown" />
+		</a>
+		<a href="/">
+			<AppCard name="Gogteat" description="Простой, лаконичный редактор markdown" />
+		</a>
+		<a href="/">
+			<AppCard name="Gogteat" description="Простой, лаконичный редактор markdown" />
+		</a>
+		<a href="/">
+			<AppCard name="Gogteat" description="Простой, лаконичный редактор markdown" />
+		</a>
 	</div>
 </div>
 

@@ -1,33 +1,19 @@
 <header>
 	<div class="container">
 		<a href="/" class="logo"> freethinkel </a>
-
-		<nav class="menu">
-			<ul>
-				<li>
-					<a href="/apps">Приложения</a>
-				</li>
-				<li>
-					<a href="/about">Обо мне</a>
-				</li>
-			</ul>
-		</nav>
 	</div>
 </header>
-`
 
 <style>
 	.logo {
-		font-size: 32px;
+		font-size: 18px;
 		font-weight: bold;
-		color: var(--accent-color);
+		color: var(--base-accent);
 		text-decoration: none;
 	}
 
 	header {
-		padding: 10px 0;
-		border-bottom: 1px solid var(--box-color12);
-		background-color: var(--invert-box-color);
+		padding: 18px 0;
 	}
 
 	.menu ul {

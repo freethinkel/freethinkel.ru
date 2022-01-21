@@ -19,8 +19,8 @@
 
 	.wrapper {
 		border-radius: var(--border-radius);
-		background-color: var(--invert-box-color);
-		box-shadow: var(--shadow1);
+		background-color: var(--base-panel);
+		box-shadow: var(--base-above);
 		padding: 12px;
 	}
 	h4 {
