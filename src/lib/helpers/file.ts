@@ -6,7 +6,7 @@ export const readDir = (path: string): Promise<string[]> => {
 			if (err) {
 				rjct(err);
 			} else {
-				rslv(data);
+				rslv(data.filter((file) => file.split('.').pop() === 'md'));
 			}
 		});
 	});

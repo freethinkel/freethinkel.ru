@@ -7,6 +7,7 @@ export const get = async (): Promise<{
 }> => {
 	const dirPath = 'src/articles/';
 	const files = await readDir(dirPath);
+
 	const metadatas = await Promise.all(
 		files.map((file) =>
 			readFile(dirPath + file).then((content) =>
