@@ -1,13 +1,9 @@
-<script>
+<script lang="ts">
+	import type { ArticleMetadata } from '$lib/types';
+
 	import PostsList from './PostsList.svelte';
+
+	export let metadatas: ArticleMetadata[] = [];
 </script>
 
-<PostsList />
-
-<style>
-	h1,
-	h2,
-	h3 {
-		margin: 0.3em 0;
-	}
-</style>
+<PostsList {metadatas} />

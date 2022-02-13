@@ -3,9 +3,12 @@
 	--base-text: #545454;
 	--base-title: var(--base-black);
 	--base-background: #fff;
-	--base-panel: var(--base-background);
+	--base-panel: #f8f8f8;
 	--base-border: #e1e1e1;
+
 	--base-accent: rgba(57, 231, 227, 1);
+	--base-accent12: rgba(57, 231, 227, 0.12);
+
 	--base-light-accent: #fbd469;
 	--base-hover: rgba(245, 166, 35, 0.15);
 	--base-focus: 0 0 0 3px var(--base-accent);
@@ -47,6 +50,11 @@ body {
 *::after,
 *::before {
 	box-sizing: border-box;
+}
+
+.app__wrapper {
+	display: flex;
+	flex-direction: column;
 }
 
 .container {

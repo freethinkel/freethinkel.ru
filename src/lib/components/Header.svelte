@@ -14,18 +14,10 @@
 
 	header {
 		padding: 18px 0;
-	}
-
-	.menu ul {
-		list-style: none;
-		display: flex;
-		gap: 16px;
-	}
-
-	.menu ul li a {
-		color: var(--text-color);
-		font-size: 1.1rem;
-		text-decoration-color: var(--accent-color);
+		background: var(--base-background);
+		position: sticky;
+		top: 0;
+		margin-bottom: 10px;
 	}
 
 	.container {

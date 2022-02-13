@@ -1,11 +1,16 @@
-import adapter from '@sveltejs/adapter-node';
+import adapter from '@sveltejs/adapter-static';
 import preprocess from 'svelte-preprocess';
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
-	preprocess: preprocess(),
+	preprocess: preprocess({
+		defaults: {
+			style: 'postcss'
+		},
+		postcss: true
+	}),
 	kit: {
-		adapter: adapter({ out: 'build' }),
+		adapter: adapter({ precompress: true }),
 		target: '#svelte'
 	}
 };
